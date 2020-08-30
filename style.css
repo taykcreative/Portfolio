@@ -186,6 +186,7 @@ h4 {
     background-color: transparent;
     border: 1px solid #000;
     margin: 3px auto;
+    border-radius: 3px;
 }
 
 #contact {
@@ -245,6 +246,7 @@ form {
     text-align: center;
     width: 7em;
     border: 2px outset #008EAE;
+    border-radius: 3px;
     font-size: 1rem;
     letter-spacing: 3px;
     color: #fff;
