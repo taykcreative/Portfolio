@@ -374,8 +374,9 @@ footer {
     }
     
     h4 {
-        text-align: left;
+        font-weight: 800;
         text-indent: 1em;
+        margin-bottom: .3em;
     }
 
     #contact {
