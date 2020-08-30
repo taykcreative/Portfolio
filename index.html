@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Taylor Kyle's Portfolio</title>
+    <!--This portfolio was designed and developed by Taylor Kyle-->
+</head>
+
+<body>
+        <nav>
+            <ul>
+                <li><a href="#projects">My Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://dev.to/tayk">Blog</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <h1>Taylor B. Kyle</h1>
+            <h2>&lt; Web Developer &gt;</h2>
+            <div id="social-btns">
+                <a href="#" target="_blank"><img src="images/codepen.PNG" alt="CodePen" class="social-img"></a>
+                <a href="http://linkedin.com/in/tayk" target="_blank"><img src="images/linkedin.PNG" alt="LinkedIn" class="social-img"></a>
+                <a href="#" target="_blank"><img src="images/git.PNG" alt="GitHub" class="social-img"></a>
+            </div>
+        </header>
+
+    <div id="wrapper">
+        <main>
+
+            <section id="abt-skills">
+                <div id="abt-l">
+                    <h3>About Me</h3>
+                        <ul>
+                            <li>Graphic Information Technology Student at Arizona State University</li>
+                            <li>Primary Focus: Web Development</li>
+                        </ul>
+                </div>
+
+                <div id="abt-r">
+                    <h3>My Skills</h3>
+                    <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h3>My Projects</h3>
+                    <div id="p-wrap">
+                        <div class="pr3" id="pr-tribute"><h4>Tribute Page</h4><img src="images/tribute.png" alt="Mock Tribute Page">
+                        </div>
+                        <div class="pr3" id="pr-form"><h4>Survey Form</h4><img src="images/survey.png" alt="Mock Form Page">
+                        </div>
+                        <div class="pr3" id="pr-blog"><h4>Blog Site</h4><img src="images/blog.png" alt="Mock Blog Site">
+                        </div>
+                    </div>
+            </section>
+
+            <section id="contact">
+                <div id="contact-l"><h3>Contact</h3>
+                    <form action="https://formspree.io/mzbjlrga" method="POST">
+                        <label for="name">Name: </label><br>
+                            <input type="text" class="field" name="name" placeholder="First &amp; Last" required><br>
+                        <label for="email">Email: </label><br>
+                            <input type="email" class="field" name="email" placeholder="your@email.com" required><br>
+                        <label for="textarea">Message: </label><br>
+                            <textarea class="field" name="textarea" placeholder="Enter message." maxlength="150"></textarea><br>
+                        <input type="submit" id="submit" value="SUBMIT">
+                    </form>
+                </div>
+                <div id="contact-r">
+                    <span><a href="tel:+17076790143"><img src="images/phone.png" alt="call/text" id="phone" class="icons"></a><br>Call/Text:<br><a href="tel:+17076790143">+1 (707) 679 - 0143</a><br></span>
+                    <span><a href="mailto:tayk.dev@gmail.com"><img src="images/email.png" alt="email" id="letter" class="icons"></a><br>Email:<br><a href="mailto:tayk.dev@gmail.com">tayk.dev@gmail.com</a></span>
+                </div>
+            </section>
+    </div><!--closes div#wrapper-->
+                <section id="socialmedia">
+                    <a href="#" target="_blank"><img src="images/youtube.PNG" alt="Youtube" class="s-icons"></a>
+                    <a href="http://twitter.com/htmlmom" target="_blank"><img src="images/twitter.PNG" alt="Twitter" class="s-icons"></a>
+                </section>
+            </main>
+
+        <footer>
+            <p><small>Created by Taylor Kyle 2020</small></p>
+        </footer>
+</body>
+</html>
