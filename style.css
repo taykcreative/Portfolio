@@ -169,6 +169,25 @@ h4 {
     box-shadow: 0 0 20px #fff;
 }
 
+.livecode {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10%;
+}
+
+.livecode a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+}
+
+.livecode button {
+    background-color: transparent;
+    border: 1px solid #000;
+    margin: 3px auto;
+}
+
 #contact {
     display: flex;
     padding-bottom: 2em;
@@ -281,6 +300,11 @@ footer {
         width: 20em;
     }
 
+    .livecode {
+        flex-direction: column;
+        padding: 0 0;
+    }
+
 }
 
 @media screen and (max-width: 718px) {
@@ -336,6 +360,15 @@ footer {
 
     #p-wrap {
         display: block;
+    }
+
+    .livecode {
+        flex-direction: row;
+        padding: 0 10%;
+    }
+
+    .livecode a {
+        font-size: 1.5rem;
     }
     
     h4 {
