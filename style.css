@@ -304,17 +304,21 @@ footer {
 
 @media screen and (max-width: 1040px) {
     h1{
-        font-size: 4rem;
+        font-size: 4.5rem;
         text-shadow: 1px 1px 1px #000;
     }
 
     h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
         margin-top: 1em;
     }
 
     h3 {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
+    }
+
+    #projects h3 {
+        padding-bottom: .7em;
     }
 
     li {
@@ -355,11 +359,18 @@ footer {
     }
 
     h1 {
-        font-size: 3rem;
+        font-size: 4rem;
+        letter-spacing: .15em;
+        padding-bottom: .2em;
     }
 
     h2 {
-        font-size: 1.3rem;
+        font-size: 2rem;
+        letter-spacing: .1em;
+    }
+
+    #social-btns img {
+        width: 3em;
     }
 
     #social-btns a:hover{
@@ -392,6 +403,7 @@ footer {
 
     #abt-r h3 {
         text-decoration: underline;
+        margin-bottom: -.05em;
     }
 
     #projects {
@@ -459,10 +471,14 @@ footer {
     }
     
     .icons {
-        width: 4em;
+        width: 3em;
         filter: drop-shadow(0 0 .5px #000);
         margin: 3em 0 0 0;
         padding: 10px;
+    }
+
+    .s-icons{
+        width: 3em;
     }
 }
 
@@ -472,9 +488,10 @@ footer {
     }
 
     h2 {
-        font-size: 1.2rem;
-        letter-spacing: .3em;
-        margin-top: 1em;
+        font-size: 1.5rem;
+        letter-spacing: .2em;
+        margin-top: .5em;
+        margin-bottom: 1.5em;
     }
 
     #abt-skills h3, #contact h3 {
