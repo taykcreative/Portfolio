@@ -51,7 +51,7 @@ h1, h2, h3, h4 {
 h1 {
     text-align: center;
     font-size: 6rem;
-    color: #009BBD;
+    color: #3c3c3c;
     letter-spacing: 1rem;
     margin-bottom: -.5em;
     text-shadow: 2px 2px 5px #000;
@@ -192,6 +192,7 @@ h4 {
 
 #contact {
     display: flex;
+    background-color: #3c3c3c;
 }
 
 #contact h3, label {
@@ -203,7 +204,6 @@ h4 {
     text-align: center;
     font-size: 1.2rem;
     flex: left;
-    background-color: #3c3c3c;
     padding-bottom: 2em;
 }
 
@@ -215,17 +215,12 @@ h4 {
     justify-content: space-evenly;
     align-content: center;
     text-align: center;
-}
-
-#contact-r a{
-    text-decoration: none;
-    color: #333;
+    background-color: #fff;
 }
 
 #contact-r img {
-    width: 6em;
+    width: 100%;
     margin: auto;
-    padding: 20px;
 }
 
 /*#contact-r img:hover {
@@ -467,7 +462,7 @@ footer {
     }
 
     #contact-r {
-        width: 100%;
+        display: none;
     }
     
     .icons {
